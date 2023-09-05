@@ -4,10 +4,4 @@
 **Directores**: Francisco Jesús Martínez Murcia [@pakitochus](https://github.com/pakitochus) y Carlos García Puntonet. 
 
 ## Resumen
-Este trabajo se centra en la clasificación y en el análisis de muestras de proteómica 
-obtenidas con tecnologı́a Olink y SomaLogic de pacientes con sı́ndromes parkinsonianos 
-(enfermedad de Parkinson, parálisis supranuclear progresiva, y atrofia multisistémica) 
-y de pacientes saludables. Se emplean distintas técnicas de aprendizaje automático 
-(Machine Learning, ML) junto con diferentes técnicas de selección de cartacterı́sticas 
-debido a la alta dimensionalidad del conjunto de datos. Proyecto en colaboración con 
-el Centro de Investigación de Enfermedades Neurodegenerativas de Múnich (DZNE).
+Este Trabajo Fin de Máster se centra en el análisis de datos de proteínas pertenecientes a sujetos diagnosticados con diferentes síndromes parkinsonianos mediante Machine Learning, incluyendo la enfermedad de Parkinson, la parálisis supranuclear progresiva y la atrofia multisistémica. Para ello se ha hecho uso de dos repositorios obtenidos mediante dos técnicas diferentes: la tecnología de ensayos de extensión por proximidad con el dispositivo Olink~\textsuperscript{\textregistered} Explore 3072 y la tecnología basada en aptámeros utilizando el dispositivo SomaScan~\textsuperscript{\textregistered} Assay 4.1. Para la clasificación se ha construido un un \textit{ensemble} de votación compuesto por máquinas de soporte vectorial, $k$ vecinos más cercanos y árboles de decisión. Se aplicaron varias técnicas de selección de características, concretamente ANOVA (\textit{Analysis Of VAriance}), mRMR (\textit{minimal-Redundancy, Maximum Relevance}), \textit{Random Forest}, y el U-Test de Mann-Whitney-Wilcoxon, aparte de utilizar validación cruzada estratificada con $k=5$. Además, se llevado a cabo un análisis de los biomarcadores seleccionados mediante \textit{clustering} jerárquico. Proyecto en colaboración con el Centro de Enfermedades Neurodegenerativas de Alemania (\textit{Deutsches Zentrum für Neurodegenerative Erkrankungen}, DZNE).
