@@ -1,7 +1,7 @@
 # Análisis de datos proteómicos de sı́ndromes parkinsonianos
 ## Jose Manuel Nieto del Valle
 
-**Directores**: Francisco Jesús Martínez Murcia [@pakitochus] y Carlos García Puntonet. 
+**Directores**: Francisco Jesús Martínez Murcia [@pakitochus](https://github.com/pakitochus) y Carlos García Puntonet. 
 
 ## Resumen
 Este trabajo se centra en la clasificación y en el análisis de muestras de proteómica 
